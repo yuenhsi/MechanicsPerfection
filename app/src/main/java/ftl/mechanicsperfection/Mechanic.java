@@ -7,10 +7,9 @@ public class Mechanic {
     private UUID mId;
     private String mTitle;
 
-//    We may not need to instantiate a Mechanic class that's lacking a title
-//    public Mechanic() {
-//        this.mId = UUID.randomUUID();
-//    }
+    public Mechanic() {
+        this.mId = UUID.randomUUID();
+    }
 
     public Mechanic(String title) {
         this.mId = UUID.randomUUID();
@@ -25,7 +24,7 @@ public class Mechanic {
         return this.mTitle;
     }
 
-    private void setTitle(String title) {
+    public void setTitle(String title) {
         this.mTitle = title;
     }
 }

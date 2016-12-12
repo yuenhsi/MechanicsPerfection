@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MechanicsPerfection</string>
+    <string name="mechanic_title_hint">Add a name for the mechanic here!</string>
 </resources>
